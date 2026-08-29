@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Redacted Lead — Keep it. Or release it redacted.</title>
+  <meta name="description" content="Replace your form with an intake agent. Leads land in your CRM. Keep them, or release them redacted into an exclusive local pool." />
+  <style>
+    :root {
+      --bg: #0c0d0b;
+      --paper: #151417;
+      --ink: #ecece4;
+      --muted: #b4b5a5;
+      --line: #2a2b26;
+      --redact: #111;
+      --accent: #ffe59f;
+      --ok: #8fbf88;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+    header, main, footer { width: min(1040px, calc(100% - 40px)); margin: 0 auto; }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 28px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .mark {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      letter-spacing: 0.04em;
+      font-size: 16px;
+    
+    }
+    .mark span { background: #000; padding: 2px 8px; }
+    .hero { padding: 64px 0 36px; }
+    h1 {
+      font-size: clamp(34px, 5.6vw, 58px);
+      line-height: 1.06;
+      margin: 0 0 18px;
+      font-weight: 560;
+    }
+    .lede { max-width: 640px; color: var(--muted); font-size: 18px; }
+    h2 { font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 550; }
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: 28px 0 56px;
+    }
+    .step {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+      font-size: 14px;
+    }
+    .step b { display: block; margin-bottom: 6px; }
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding-bottom: 72px;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .meta {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+    .pill { border: 1px solid var(--line); padding: 2px 8px; border-radius: 99px; }
+    .ok { color: var(--ok); border-color: #2e4a2c; }
+    .row {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 10px;
+      padding: 8px 0;
+      border-top: 1px solid var(--line);
+      font-size: 14px;
+    }
+    .k { color: var(--muted); }
+    .bar {
+      display: inline-block;
+      background: var(--redact);
+      color: transparent;
+      user-select: none;
+      border-radius: 3px;
+      min-width: 8em;
+      height: 1em;
+      vertical-align: -2px;
+    }
+    .actions { display: flex; gap: 8px; margin-top: 16px; }
+    button {
+      flex: 1;
+      border: 0;
+      padding: 11px 12px;
+      border-radius: 8px;
+      font-weight: 650;
+      cursor: pointer;
+    }
+    .keep { background: var(--ok); color: #10210f; }
+    .release { background: var(--accent); color: #111; }
+    .buy { width: 100%; margin-top: 16px; background: var(--accent); color: #111; }
+    button:disabled { opacity: 0.55; cursor: default; }
+    .chat {
+      font-size: 14px;
+      color: var(--muted);
+      border-left: 2px solid var(--line);
+      padding-left: 12px;
+      margin: 12px 0 0;
+    }
+    footer {
+      color: var(--muted);
+      font-size: 13px;
+      padding: 28px 0 60px;
+      border-top: 1px solid var(--line);
+    }
+    @media (max-width: 860px) {
+      .flow, .split { grid-template-columns: 1fr; }
+    }
+    .highlight {
+        color: rgb(255, 255, 158);
+    }
+    .highlight2 {
+        color: rgb(95, 199, 195);
+    }
+    .highlight3 {
+        color: rgb(184, 63, 61);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="mark">RedactedLead.com</div>
+    <div class="meta" style="margin:0">AI concierge and lead network</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Your website form becomes an agent.
+
+<br><span class="highlight2">High-value leads stay yours.</span>
+
+<br><span class="highlight">Re-sell unused leads to the network. </span><span class="highlight3">Redacted.</span>
+
+
+
+</h1>
+      <p class="lede">
+        Each business on the network replaces its HTML form with an intake agent.
+        High quality lead captures land in that business’s own AI Workroom. Their AI can review the lead with them.
+        Keep it - or feed it back into the local pool, redacted, for one other shop to buy.
+      </p>
+    </section>
+
+    <h2>The loop</h2>
+    <section class="flow">
+      <div class="step"><b>1. Replace the form</b>Site visitor talks to your custom intake agent instead of a dead HTML form.</div>
+      <div class="step"><b>2. Private CRM</b>The lead is yours first. Custom fields, transcript, consent, all in your workspace.</div>
+      <div class="step"><b>3. Decide with AI</b>“Take this job?” Your agent summarizes fit, distance, and urgency.</div>
+      <div class="step"><b>4. Keep or release</b>Keep it. Or release it redacted into the pool for another plumber nearby and earn lead credits.</div>
+    </section>
+
+    <section class="split">
+      <article class="card" id="owner">
+        <div class="meta">
+          <span class="pill ok">YOURS FIRST</span>
+          <span class="pill">Austin plumber</span>
+          <span class="pill">id 61</span>
+        </div>
+        <div class="row"><div class="k">Name</div><div>Jordan Hale</div></div>
+        <div class="row"><div class="k">Email</div><div>jordan@example.com</div></div>
+        <div class="row"><div class="k">Phone</div><div>(512) 555-0148</div></div>
+        <div class="row"><div class="k">Job</div><div>Kitchen drain · standing water · evening window</div></div>
+        <div class="row"><div class="k">Territory</div><div>78704 · 11 minutes from shop</div></div>
+        <p class="chat">
+          AI: This matches your drain work and evening availability.
+          You’re booked until 6. Release to the South Austin pool?
+        </p>
+        <div class="actions">
+          <button class="keep" id="keep">Take this lead</button>
+          <button class="release" id="release">Release redacted</button>
+        </div>
+      </article>
+
+      <article class="card" id="pool">
+        <div class="meta">
+          <span class="pill">NETWORK POOL</span>
+          <span class="pill">plumbers · 787</span>
+          <span class="pill" id="pool-state">waiting</span>
+        </div>
+        <div class="row"><div class="k">Name</div><div id="p-name"><span class="bar">████████████</span></div></div>
+        <div class="row"><div class="k">Email</div><div id="p-email"><span class="bar">████████████████</span></div></div>
+        <div class="row"><div class="k">Phone</div><div id="p-phone"><span class="bar">██████████</span></div></div>
+        <div class="row"><div class="k">Job</div><div>Kitchen drain · standing water · evening window</div></div>
+        <div class="row"><div class="k">Territory</div><div>Austin, TX · 787</div></div>
+        <div class="row"><div class="k">Consent</div><div>Agreed to contact from a local pro</div></div>
+        <button class="buy" id="buy" disabled>Unlock exclusive contact</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    RedactedLead.com by FirstMovers Network &copy 2026
+  </footer>
+
+  <script>
+    const keep = document.getElementById("keep");
+    const release = document.getElementById("release");
+    const buy = document.getElementById("buy");
+    const state = document.getElementById("pool-state");
+
+    keep.addEventListener("click", () => {
+      keep.textContent = "Kept · not in pool";
+      keep.disabled = true;
+      release.disabled = true;
+      buy.disabled = true;
+      state.textContent = "not released";
+    });
+
+    release.addEventListener("click", () => {
+      release.textContent = "Released to pool";
+      keep.disabled = true;
+      release.disabled = true;
+      buy.disabled = false;
+      state.textContent = "available · exclusive";
+    });
+
+    buy.addEventListener("click", () => {
+      document.getElementById("p-name").textContent = "Jordan Hale";
+      document.getElementById("p-email").textContent = "jordan@example.com";
+      document.getElementById("p-phone").textContent = "(512) 555-0148";
+      buy.textContent = "Unlocked · lead locked";
+      buy.disabled = true;
+      state.textContent = "sold";
+    });
+  </script>
+</body>
+</html>
